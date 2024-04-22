@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
-import logo from "../../assets/shared/desktop/logo.svg";
+import logo from "/assets/shared/desktop/logo.svg";
 import "./Navigation.css";
 
 const Navigation = () => {
 	return (
 		<div className="nav-container">
-			<Link to="/">
+			<Link className="logo" to="/">
 				<img src={logo} alt="coffee beans" />
 			</Link>
 			<div className="links-container">

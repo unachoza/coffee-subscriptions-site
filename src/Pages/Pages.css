@@ -1,6 +1,10 @@
+.page-container {
+	margin: 100px;
+}
+
 .section {
 	text-align: left;
-	margin: 40px 20px;
+	margin: 40px 0px;
 }
 
 .title {
@@ -12,4 +16,33 @@
 	font-family: "Barlow Semi Condensed", sans-serif;
 	font-weight: 400;
 	font-style: normal;
+}
+
+.section.About.Us {
+	/* width: 30%; */
+}
+.image-container {
+	position: relative;
+	display: inline-block;
+	width: 100%;
+}
+
+.image-container img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.content-container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #fff;
+	padding: 10px 20px;
+	font-size: 20px;
+}
+
+img {
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
